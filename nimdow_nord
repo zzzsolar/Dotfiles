@@ -45,6 +45,8 @@ exec = [
   "nitrogen --restore",
   "./statusbar.sh",
   "flameshot",
+  "./mousesettings.sh",
+  "picom",
   #"firefox",
   #"st",
 ]
