@@ -60,7 +60,7 @@ exec = [
   windowTitlePosition = "left"
   barBackgroundColor = "#2E3440"
   barForegroundColor = "#f8f8f2"
-  barSelectionColor = "#81a1c1"
+  barSelectionColor = "#8fbcbb"
   barUrgentColor = "#BF616A"
   barFonts = [
     "hack:size=10:antialias=true",
