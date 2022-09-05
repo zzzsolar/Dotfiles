@@ -23,7 +23,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 /*static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };*/
-static const char *tags[] = { "", "", "", "", "嗢", "ﭮ", "", "", "" };
+static const char *tags[] = { "", "", "", "", "嗢", "ﱘ", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -71,7 +71,7 @@ static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_v,      spawn,          {.v = dmenucmd } },
-	{ MODKEY,                       XK_i,      spawn,          SHCMD("GTK_USE_PORTAL=1 firefox") },
+	{ MODKEY,                       XK_i,      spawn,          SHCMD("qutebrowser --set content.private_browsing true") },
 	{ MODKEY,                        XK_p,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
