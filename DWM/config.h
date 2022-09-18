@@ -71,7 +71,8 @@ static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_v,      spawn,          {.v = dmenucmd } },
-	{ MODKEY,                       XK_i,      spawn,          SHCMD("GTK_USE_PORTAL=1 firefox") },
+	{ MODKEY,                       XK_i,      spawn,          SHCMD("brave") },
+	{ MODKEY,                       XK_o,      spawn,          SHCMD("pcmanfm") },
 	{ MODKEY,                        XK_p,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
